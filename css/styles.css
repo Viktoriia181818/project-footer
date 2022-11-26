@@ -14,13 +14,13 @@ body {
 
 @media screen and (min-width: 320px) {
     .container {
-        max-width: 320px;
+        width: auto;
     }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
     }
 }
 
@@ -108,11 +108,7 @@ body {
     list-style: none;
 }
 
-@media screen and (min-width: 1280px) {
-    .footer {
-        background-image: url(../images/bg-footer.jpg);
-    }
-}
+
 
 @media screen and (max-width:767px) {
     .footer {
@@ -123,6 +119,12 @@ body {
 @media screen and (min-width:768px) {
     .footer {
         background-image: url(../images/bg-tabletvers.jpg);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        background-image: url(../images/bg-footer.jpg);
     }
 }
 
