@@ -14,13 +14,13 @@ body {
 
 @media screen and (min-width: 320px) {
     .container {
-        width: 320px;
+        max-width: 320px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
 }
 
@@ -108,23 +108,24 @@ body {
     list-style: none;
 }
 
-@media screen and (max-width: 767px) {
-    .footer {
-        background-image: url(../images/bg-mobile.jpg);
-    }
-}
-
-@media screen and (max-width: 1279px) {
-    .footer {
-        background-image: url(../images/bg-mobile.jpg);
-    }
-}
-
 @media screen and (min-width: 1280px) {
     .footer {
         background-image: url(../images/bg-footer.jpg);
     }
 }
+
+@media screen and (max-width:767px) {
+    .footer {
+        background-image: url(../images/bg-mobilevers.jpg);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer {
+        background-image: url(../images/bg-tabletvers.jpg);
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .contact-form {
@@ -200,12 +201,12 @@ body {
     }
 }
 
-.footer-socials {
-    display: flex;
-    list-style: none;
-    gap: 14px;
-    padding: 0;
-}
+
+
+
+
+
+
 
 .team-socials__icon {
     width: 20px;
@@ -217,15 +218,47 @@ body {
     flex-direction: column;
 }
 
-a.team-socials__social--networks {
+.footer-socials {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+    padding: 0;
+    background: transparent;
+}
+
+
+.team-socials__social--networks {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+    background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
     border-radius: 50%;
+    background-clip: padding-box;
 }
+
+.team-socials__icon {
+    fill: #FFFFFF;
+    border-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%) ;
+}
+
+.team-socials__social--networks:hover,
+.team-socials__social--networks:focus {
+    background: transparent;
+}
+
+.team-socials__icon:hover {
+    background-color: #06071b;
+}
+
+.footer-contact-footer {
+    padding: 0;
+}
+
+
+
+
 
 .footer-contact {
     display: flex;
