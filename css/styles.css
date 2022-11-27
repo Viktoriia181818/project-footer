@@ -225,36 +225,36 @@ body {
     list-style: none;
     gap: 14px;
     padding: 0;
+}
+
+.footer-socials-net {
     background: transparent;
 }
 
+.team-socials__social--networks:hover,
+.team-socials__social--networks:focus {
+    background: #06071b;
+}
 
 .team-socials__social--networks {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
     height: 40px;
     background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
     border-radius: 50%;
     background-clip: padding-box;
+    padding: 1;
+    border: none;
 }
+
+.team-socials__social--networks {
+    width: 40px;
+}
+
 
 .team-socials__icon {
     fill: #FFFFFF;
-    background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
-   
-}
-
-.team-socials__icon:hover,
-.team-socials__icon:focus {
-    fill: #06071b;
-}
-
-.team-socials__social--networks:hover,
-.team-socials__social--networks:focus {
-    background: transparent;
-    color: #06071b;
 }
 
 
