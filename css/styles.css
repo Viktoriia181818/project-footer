@@ -242,17 +242,24 @@ body {
 
 .team-socials__icon {
     fill: #FFFFFF;
-    border-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%) ;
+    background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+   
+}
+
+.team-socials__icon:hover,
+.team-socials__icon:focus {
+    fill: #06071b;
 }
 
 .team-socials__social--networks:hover,
 .team-socials__social--networks:focus {
     background: transparent;
+    color: #06071b;
 }
 
-.team-socials__icon:hover {
-    background-color: #06071b;
-}
+
+
+
 
 .footer-contact-footer {
     padding: 0;
