@@ -262,8 +262,8 @@ body {
 .team-socials__social--networks::before {
     position: absolute;
     content: "";
-    left: 50%;
-    top: 50%;
+    /* left: 50%;
+    top: 50%; */
     translate: (-50%, -50%);
     width: calc(100% - 2px);
     height: calc(100% - 2px);
