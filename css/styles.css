@@ -112,7 +112,7 @@ body {
 
 @media screen and (max-width:767px) {
     .footer {
-        background-image: url(../images/mobile-bg.svg);
+        background-image: url(../images/bg-mobilevers.jpg);
         background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -121,7 +121,7 @@ body {
 
 @media screen and (min-width:768px) {
     .footer {
-        background-image: url(../images/tablett-bg.svg);
+        background-image: url(../images/bg-tabletvers.jpg);
         background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
 
 @media screen and (min-width: 1280px) {
     .footer {
-        background-image: url(../images/desktop-bg.svg);
+        background-image: url(../images/bg-footer.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
