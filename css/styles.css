@@ -2,6 +2,7 @@ body {
     background-color: #06071b;
     color: #ffffff;
     font-family: Inter;
+    margin: 0;
 }
 
 .container {
@@ -122,7 +123,6 @@ body {
 @media screen and (min-width:768px) {
     .footer {
         background-image: url(../images/bg-tabletvers.jpg);
-        background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
     }
