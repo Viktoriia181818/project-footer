@@ -43,8 +43,6 @@ body {
     .section {
         padding-bottom: 80px;
         padding-top: 80px;
-        padding-right: auto;
-        padding-left: auto;
     }
 }
 
@@ -219,6 +217,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .footer-socials {
@@ -319,14 +318,23 @@ address {
     margin-left: 24px;
 }
 
+  
+
 @media screen and (min-width: 1280px) {
     .section-footer {
         display: flex;
         justify-content: space-between;
     }
 
-    .footer-address {
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+.footer-address {
         max-width: 500px;
+        margin-right: 90px;
     }
 }
 
@@ -336,11 +344,16 @@ address {
     }
 }
 
+
 @media screen and (min-width:1280px) {
     .footer-address-footer {
         display: none;
     }
 }
+
+
+
+
 
 .footer-socials-footer {
     display: flex;
